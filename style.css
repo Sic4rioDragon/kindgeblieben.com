@@ -1,0 +1,69 @@
+/* === Global === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+a {
+  color: #8dcff4;
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+img.logo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.twitch-embed {
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.button {
+  display: inline-block;
+  background: #8dcff4;
+  color: #111;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #5ca8cf;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}

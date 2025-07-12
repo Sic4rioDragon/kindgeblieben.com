@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>404 — Nicht gefunden</title>
+  <link rel="icon" type="image/png" href="assets/pinguinlogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 80px;
+    }
+    a {
+      color: #8dcff4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oops! Seite nicht gefunden.</h1>
+  <p>Diese Seite existiert nicht.<br>
+    Du wirst in 5 Sekunden auf die <a href="/">Startseite</a> weitergeleitet.</p>
+  <script>
+    setTimeout(function() {
+      window.location.href = "/";
+    }, 5000);
+  </script>
+</body>
+</html>
